@@ -78,7 +78,7 @@ function App() {
 
             <a
               href="https://647c12620e4a0e000705f12f--guru-ui.netlify.app/" 
-              target={"_blank"}
+              target={"_blank"} rel="noreferrer"
             >
               <div class="project-box1">
                 <div class="project-info">
@@ -86,7 +86,7 @@ function App() {
                     <p>The Guruu</p>
                     <a
                       href="https://github.com/vkyamini/guru-ui"
-                      target={"_blank"}
+                      target={"_blank"} rel="noreferrer"
                     >
                       <p>Github Link</p>
                     </a>
@@ -94,7 +94,7 @@ function App() {
                   <div class="weblink-btn">
                     <a
                       href="https://647c12620e4a0e000705f12f--guru-ui.netlify.app/"
-                      target={"_blank"}
+                      target={"_blank"} rel="noreferrer"
                     >
                       <button class="btn-weblink">see website &#8594;</button>
                     </a>
@@ -104,7 +104,7 @@ function App() {
             </a>
             <a
               href="https://addnotes.herokuapp.com/notes"
-              target={"_blank"}
+              target={"_blank"} rel="noreferrer"
             >
               {" "}
               <div class="project-box2">
@@ -113,7 +113,7 @@ function App() {
                     <p>Notes Taker</p>
                     <a
                       href="https://github.com/vkyamini/notes_taker"
-                      target={"_blank"}
+                      target={"_blank"} rel="noreferrer"
                     >
                       <p>Github Link</p>
                     </a>
@@ -121,7 +121,7 @@ function App() {
                   <div class="weblink-btn">
                     <a
                       href="https://addnotes.herokuapp.com/notes"
-                      target={"_blank"}
+                      target={"_blank"} rel="noreferrer"
                     >
                       <button class="btn-weblink">see website &#8594;</button>
                     </a>
@@ -131,7 +131,7 @@ function App() {
             </a>
             <a
               href="https://vkyamini.github.io/daily-Calendar/"
-              target={"_blank"}
+              target={"_blank"} rel="noreferrer"
             >
               {" "}
               <div class="project-box3">
@@ -140,7 +140,7 @@ function App() {
                     <p>Daily Calendar</p>
                     <a
                       href="https://github.com/vkyamini/daily-Calendar"
-                      target={"_blank"}
+                      target={"_blank"} rel="noreferrer"
                     >
                       <p>Github Link</p>
                     </a>
@@ -148,7 +148,7 @@ function App() {
                   <div class="weblink-btn">
                     <a
                       href="https://vkyamini.github.io/daily-Calendar/"
-                      target={"_blank"}
+                      target={"_blank"} rel="noreferrer"
                     >
                       <button class="btn-weblink">see website &#8594;</button>
                     </a>
@@ -158,7 +158,7 @@ function App() {
             </a>
             <a
               href="https://vkyamini.github.io/dailt-weather/"
-              target={"_blank"}
+              target={"_blank"} rel="noreferrer"
             >
               {" "}
               <div class="project-box4">
@@ -167,7 +167,7 @@ function App() {
                     <p>Weather App</p>
                     <a
                       href="https://github.com/vkyamini/dailt-weather"
-                      target={"_blank"}
+                      target={"_blank"} rel="noreferrer"
                     >
                       <p>Github Link</p>
                     </a>
@@ -175,7 +175,7 @@ function App() {
                   <div class="weblink-btn">
                     <a
                       href="https://vkyamini.github.io/dailt-weather/"
-                      target={"_blank"}
+                      target={"_blank"} rel="noreferrer"
                     >
                       <button class="btn-weblink">see website &#8594;</button>
                     </a>
@@ -185,7 +185,7 @@ function App() {
             </a>
             <a
               href="https://vkyamini.github.io/Quiz/"
-              target={"_blank"}
+              target={"_blank"} rel="noreferrer"
             >
               {" "}
               <div class="project-box4">
@@ -194,7 +194,7 @@ function App() {
                     <p>Quiz</p>
                     <a
                       href="https://github.com/vkyamini/Quiz"
-                      target={"_blank"}
+                      target={"_blank"} rel="noreferrer"
                     >
                       <p>Github Link</p>
                     </a>
@@ -202,7 +202,7 @@ function App() {
                   <div class="weblink-btn">
                     <a
                       href="https://vkyamini.github.io/Quiz/"
-                      target={"_blank"}
+                      target={"_blank"} rel="noreferrer"
                     >
                       <button class="btn-weblink">see website &#8594;</button>
                     </a>
@@ -212,7 +212,7 @@ function App() {
             </a>
             <a
               href="https://graphql-yamini-books.herokuapp.com/"
-              target={"_blank"}
+              target={"_blank"} rel="noreferrer"
             >
               {" "}
               <div class="project-box4">
@@ -221,7 +221,7 @@ function App() {
                     <p>Books App</p>
                     <a
                       href="https://github.com/vkyamini/books-app"
-                      target={"_blank"}
+                      target={"_blank"} rel="noreferrer"
                     >
                       <p>Github Link</p>
                     </a>
@@ -229,7 +229,7 @@ function App() {
                   <div class="weblink-btn">
                     <a
                       href="https://graphql-yamini-books.herokuapp.com/"
-                      target={"_blank"}
+                      target={"_blank"} rel="noreferrer"
                     >
                       <button class="btn-weblink">see website &#8594;</button>
                     </a>
