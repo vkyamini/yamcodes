@@ -102,12 +102,40 @@ function App() {
                 </div>
               </div>
             </a>
+
+            <a
+              href="https://graphql-yamini-books.herokuapp.com/"
+              target={"_blank"} rel="noreferrer"
+            >
+              {" "}
+              <div class="project-box2">
+                <div class="project-info">
+                  <div>
+                    <p>Books App</p>
+                    <a
+                      href="https://github.com/vkyamini/books-app"
+                      target={"_blank"} rel="noreferrer"
+                    >
+                      <p>Github Link</p>
+                    </a>
+                  </div>
+                  <div class="weblink-btn">
+                    <a
+                      href="https://graphql-yamini-books.herokuapp.com/"
+                      target={"_blank"} rel="noreferrer"
+                    >
+                      <button class="btn-weblink">see website &#8594;</button>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </a>
             <a
               href="https://addnotes.herokuapp.com/notes"
               target={"_blank"} rel="noreferrer"
             >
               {" "}
-              <div class="project-box2">
+              <div class="project-box3">
                 <div class="project-info">
                   <div>
                     <p>Notes Taker</p>
@@ -134,7 +162,7 @@ function App() {
               target={"_blank"} rel="noreferrer"
             >
               {" "}
-              <div class="project-box3">
+              <div class="project-box4">
                 <div class="project-info">
                   <div>
                     <p>Daily Calendar</p>
@@ -161,7 +189,7 @@ function App() {
               target={"_blank"} rel="noreferrer"
             >
               {" "}
-              <div class="project-box4">
+              <div class="project-box5">
                 <div class="project-info">
                   <div>
                     <p>Weather App</p>
@@ -188,7 +216,7 @@ function App() {
               target={"_blank"} rel="noreferrer"
             >
               {" "}
-              <div class="project-box4">
+              <div class="project-box6">
                 <div class="project-info">
                   <div>
                     <p>Quiz</p>
@@ -202,33 +230,6 @@ function App() {
                   <div class="weblink-btn">
                     <a
                       href="https://vkyamini.github.io/Quiz/"
-                      target={"_blank"} rel="noreferrer"
-                    >
-                      <button class="btn-weblink">see website &#8594;</button>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </a>
-            <a
-              href="https://graphql-yamini-books.herokuapp.com/"
-              target={"_blank"} rel="noreferrer"
-            >
-              {" "}
-              <div class="project-box4">
-                <div class="project-info">
-                  <div>
-                    <p>Books App</p>
-                    <a
-                      href="https://github.com/vkyamini/books-app"
-                      target={"_blank"} rel="noreferrer"
-                    >
-                      <p>Github Link</p>
-                    </a>
-                  </div>
-                  <div class="weblink-btn">
-                    <a
-                      href="https://graphql-yamini-books.herokuapp.com/"
                       target={"_blank"} rel="noreferrer"
                     >
                       <button class="btn-weblink">see website &#8594;</button>
