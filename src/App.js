@@ -77,7 +77,7 @@ function App() {
             <h3 id="projects-heading">Portfolio</h3>
 
             <a
-              href="https://647c12620e4a0e000705f12f--guru-ui.netlify.app/" 
+              href="https://guru-ui.netlify.app/" 
               target={"_blank"} rel="noreferrer"
             >
               <div class="project-box1">
@@ -93,7 +93,7 @@ function App() {
                   </div>
                   <div class="weblink-btn">
                     <a
-                      href="https://647c12620e4a0e000705f12f--guru-ui.netlify.app/"
+                      href="https://guru-ui.netlify.app/"
                       target={"_blank"} rel="noreferrer"
                     >
                       <button class="btn-weblink">see website &#8594;</button>
