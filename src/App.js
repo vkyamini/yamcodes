@@ -53,20 +53,41 @@ function App() {
           <div id="aboutme-descriptive">
             <div id="aboutme-info">
               <p id="aboutme-heading">A little bit about me</p>
-              <p class="p-1">Hai! Welcome i am V.K yamini</p>
+              <p class="p-1">I am full stack developer based in Seattle,washington.</p>
               <p class="p-1">
-                I am Full satck web developer i love creating websites
+              As software developer i spend my days [often nights] 
               </p>
-              <p class="p-1">I am Full satck web developer i enjoy</p>
+              <p class="p-1">painting the Internet canvas with PROJECTS </p>
+              <p class="p-1">and lines of code.  I turn zeros and ones</p>
               <p class="p-1">
-                I am Full satck web developer i am looking forward to it
-              </p>
-              <p class="p-1">
-                I am Full satck web developer i am gonna be good at it
+                into immersive,interactive experiences.
               </p>
               <p class="p-1">
-                I am Full satck web developer how are you guys doing?
+              When i am not Coding i read articles,do Painting or mostly</p>
+              <p class="p-1"> shinrin-yoku [forest bathing].
               </p>
+              <p class="p-1">
+              I also practice Meditation and a certified trainer Heartfullnes.
+              </p>
+
+
+              {/* <p class="p-1">I am full stack developer based in Seattle,washington.</p>
+              <p class="p-1">
+                As developeri spent my days(and often nights) painting the Internet
+              </p>
+              <p class="p-1">canvas with PROJECTS and lines of code.</p>
+              <p class="p-1">
+                I turn zeros and ones into immersive,interactive experiences.
+              </p>
+              <p class="p-1">
+                I thread the path of minimalism,finding beauty in simplicity and order.
+              </p>
+              <p class="p-1">
+              When i am not Coding i read articles, Painting or shinrin-yoku(forest bathing).
+              </p>
+              <p class="p-1">
+              I also practice Meditation and a Heartfullnes Practiionr
+              </p> */}
             </div>
             <div id="aboutme-img">
               {" "}

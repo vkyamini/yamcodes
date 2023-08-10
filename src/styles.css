@@ -397,6 +397,7 @@ input::placeholder {
   }
   .p-1 {
     text-align: center;
+    font-family: fantasy
   }
   #aboutme-info {
     font-size: 20px;
