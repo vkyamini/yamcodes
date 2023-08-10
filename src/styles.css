@@ -72,6 +72,28 @@ p {
   text-align: center;
   margin-bottom: 20px;
 }
+#resume {
+  padding: 5px;
+  font-size: 20px;
+  /* font-family:fantasy; */
+  font-weight: bolder;
+  text-decoration: underline;
+  color:#159192;
+}
+#resume-footer {
+  
+  font-size: 20px;
+  /* font-family:fantasy; */
+  font-weight: bolder;
+  text-decoration: underline;
+  color:#159192;
+}
+#resume:hover{
+  color:#ffffff;
+}
+#resume-footer:hover{
+  color:#ffffff;
+}
 
 #about-me-div {
   padding: 100px;
@@ -182,7 +204,7 @@ li {
   display: inline-block;
   background-image: url("/src/Assets/calendar.png");
   width: 00px;
-  width:400px;
+  width: 400px;
   height: 400px;
   border-radius: 50px;
   background-size: cover;
@@ -198,7 +220,6 @@ li {
   background-size: cover;
   position: relative;
   margin: 10px;
- 
 }
 .project-box6 {
   display: inline-block;
@@ -333,6 +354,9 @@ input::placeholder {
     flex-wrap: wrap;
     margin: 0px;
   }
+  #res-non{
+    display:none;
+  }
   #contact-heading {
     font-size: 60px;
     padding: 30px;
@@ -449,12 +473,20 @@ input::placeholder {
   ul {
     display: block;
   }
+  #res-non{
+    color:var(--button-color);
+    text-decoration: underline;
+    
+  }
   li {
     font-size: 20px;
   }
   #frontpage-image {
     height: 330px;
     border-radius: 10px;
+  }
+  #resume{
+    display:none;
   }
   #frontpage-p {
     font-size: 20px;

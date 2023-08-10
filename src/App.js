@@ -10,7 +10,7 @@ function App() {
         <div id="div-tint">
           <div id="nav-bar">
             <ul>
-              <li class="name">V.K Yamini</li>
+              <li class="name">V.K Yamini </li>
               <li id="home-link">
                 <a href="#Home">Home</a>
               </li>
@@ -23,6 +23,8 @@ function App() {
               <li id="getintouch-link">
                 <a href="#Contacts">Conatct</a>
               </li>
+              <li><a href="https://docs.google.com/document/d/1hmyOoFpUE1eImqPQlCMjHKOzieg9crPmLzdbro6frWM/edit?usp=sharing"  target={"_blank"}
+              rel="noreferrer"  id="res-non">Resume</a></li>
             </ul>
           </div>
           <div id="Home">
@@ -32,11 +34,15 @@ function App() {
                 {" "}
                 <img id="frontpage-image" src={frontend} alt="mypic"></img>
               </center>
+           <center><a href="https://docs.google.com/document/d/1hmyOoFpUE1eImqPQlCMjHKOzieg9crPmLzdbro6frWM/edit?usp=sharing"  target={"_blank"}
+              rel="noreferrer"> <span id="resume">Resume</span></a></center>  
             </div>
-            <p id="front-page">
-              Hi! I'm Yamini, and I build web apps
-            </p>
-            <center><a href="#Contacts"><button id="hire-me" >Get In Touch</button></a></center>
+            <p id="front-page">Hi! I'm Yamini, and I build web apps</p>
+            <center>
+              <a href="#Contacts">
+                <button id="hire-me">Get In Touch</button>
+              </a>
+            </center>
           </div>
         </div>
       </div>
@@ -46,7 +52,7 @@ function App() {
         <div id="about-me-div">
           <div id="aboutme-descriptive">
             <div id="aboutme-info">
-              <p id="aboutme-heading">About Me</p>
+              <p id="aboutme-heading">A little bit about me</p>
               <p class="p-1">Hai! Welcome i am V.K yamini</p>
               <p class="p-1">
                 I am Full satck web developer i love creating websites
@@ -77,8 +83,9 @@ function App() {
             <h3 id="projects-heading">Portfolio</h3>
 
             <a
-              href="https://guru-ui.netlify.app/" 
-              target={"_blank"} rel="noreferrer"
+              href="https://guru-ui.netlify.app/"
+              target={"_blank"}
+              rel="noreferrer"
             >
               <div class="project-box1">
                 <div class="project-info">
@@ -86,7 +93,8 @@ function App() {
                     <p>The Guruu</p>
                     <a
                       href="https://github.com/vkyamini/guru-ui"
-                      target={"_blank"} rel="noreferrer"
+                      target={"_blank"}
+                      rel="noreferrer"
                     >
                       <p>Github Link</p>
                     </a>
@@ -94,7 +102,8 @@ function App() {
                   <div class="weblink-btn">
                     <a
                       href="https://guru-ui.netlify.app/"
-                      target={"_blank"} rel="noreferrer"
+                      target={"_blank"}
+                      rel="noreferrer"
                     >
                       <button class="btn-weblink">see website &#8594;</button>
                     </a>
@@ -105,7 +114,8 @@ function App() {
 
             <a
               href="https://graphql-yamini-books.herokuapp.com/"
-              target={"_blank"} rel="noreferrer"
+              target={"_blank"}
+              rel="noreferrer"
             >
               {" "}
               <div class="project-box2">
@@ -114,7 +124,8 @@ function App() {
                     <p>Books App</p>
                     <a
                       href="https://github.com/vkyamini/books-app"
-                      target={"_blank"} rel="noreferrer"
+                      target={"_blank"}
+                      rel="noreferrer"
                     >
                       <p>Github Link</p>
                     </a>
@@ -122,7 +133,8 @@ function App() {
                   <div class="weblink-btn">
                     <a
                       href="https://graphql-yamini-books.herokuapp.com/"
-                      target={"_blank"} rel="noreferrer"
+                      target={"_blank"}
+                      rel="noreferrer"
                     >
                       <button class="btn-weblink">see website &#8594;</button>
                     </a>
@@ -132,7 +144,8 @@ function App() {
             </a>
             <a
               href="https://addnotes.herokuapp.com/notes"
-              target={"_blank"} rel="noreferrer"
+              target={"_blank"}
+              rel="noreferrer"
             >
               {" "}
               <div class="project-box3">
@@ -141,7 +154,8 @@ function App() {
                     <p>Notes Taker</p>
                     <a
                       href="https://github.com/vkyamini/notes_taker"
-                      target={"_blank"} rel="noreferrer"
+                      target={"_blank"}
+                      rel="noreferrer"
                     >
                       <p>Github Link</p>
                     </a>
@@ -149,7 +163,8 @@ function App() {
                   <div class="weblink-btn">
                     <a
                       href="https://addnotes.herokuapp.com/notes"
-                      target={"_blank"} rel="noreferrer"
+                      target={"_blank"}
+                      rel="noreferrer"
                     >
                       <button class="btn-weblink">see website &#8594;</button>
                     </a>
@@ -159,7 +174,8 @@ function App() {
             </a>
             <a
               href="https://vkyamini.github.io/daily-Calendar/"
-              target={"_blank"} rel="noreferrer"
+              target={"_blank"}
+              rel="noreferrer"
             >
               {" "}
               <div class="project-box4">
@@ -168,7 +184,8 @@ function App() {
                     <p>Daily Calendar</p>
                     <a
                       href="https://github.com/vkyamini/daily-Calendar"
-                      target={"_blank"} rel="noreferrer"
+                      target={"_blank"}
+                      rel="noreferrer"
                     >
                       <p>Github Link</p>
                     </a>
@@ -176,7 +193,8 @@ function App() {
                   <div class="weblink-btn">
                     <a
                       href="https://vkyamini.github.io/daily-Calendar/"
-                      target={"_blank"} rel="noreferrer"
+                      target={"_blank"}
+                      rel="noreferrer"
                     >
                       <button class="btn-weblink">see website &#8594;</button>
                     </a>
@@ -186,7 +204,8 @@ function App() {
             </a>
             <a
               href="https://vkyamini.github.io/dailt-weather/"
-              target={"_blank"} rel="noreferrer"
+              target={"_blank"}
+              rel="noreferrer"
             >
               {" "}
               <div class="project-box5">
@@ -195,7 +214,8 @@ function App() {
                     <p>Weather App</p>
                     <a
                       href="https://github.com/vkyamini/dailt-weather"
-                      target={"_blank"} rel="noreferrer"
+                      target={"_blank"}
+                      rel="noreferrer"
                     >
                       <p>Github Link</p>
                     </a>
@@ -203,7 +223,8 @@ function App() {
                   <div class="weblink-btn">
                     <a
                       href="https://vkyamini.github.io/dailt-weather/"
-                      target={"_blank"} rel="noreferrer"
+                      target={"_blank"}
+                      rel="noreferrer"
                     >
                       <button class="btn-weblink">see website &#8594;</button>
                     </a>
@@ -213,7 +234,8 @@ function App() {
             </a>
             <a
               href="https://vkyamini.github.io/Quiz/"
-              target={"_blank"} rel="noreferrer"
+              target={"_blank"}
+              rel="noreferrer"
             >
               {" "}
               <div class="project-box6">
@@ -222,7 +244,8 @@ function App() {
                     <p>Quiz</p>
                     <a
                       href="https://github.com/vkyamini/Quiz"
-                      target={"_blank"} rel="noreferrer"
+                      target={"_blank"}
+                      rel="noreferrer"
                     >
                       <p>Github Link</p>
                     </a>
@@ -230,7 +253,8 @@ function App() {
                   <div class="weblink-btn">
                     <a
                       href="https://vkyamini.github.io/Quiz/"
-                      target={"_blank"} rel="noreferrer"
+                      target={"_blank"}
+                      rel="noreferrer"
                     >
                       <button class="btn-weblink">see website &#8594;</button>
                     </a>
@@ -246,7 +270,7 @@ function App() {
       <div id="Contacts">
         <div id="form-div">
           <p id="contact-heading">Get in Touch</p>
-          <form>
+         <form>
             <input id="form-name" type="text" placeholder="name"></input>
             <input id="form-Email" type="text" placeholder="Email"></input>
             <br></br>
@@ -281,6 +305,8 @@ function App() {
           </li>
           <li>
             <a href="#Contacts">Conatct</a>
+            </li>
+            <li><a href="https://docs.google.com/document/d/1hmyOoFpUE1eImqPQlCMjHKOzieg9crPmLzdbro6frWM/edit?usp=sharing" target={"_blank"}  rel="noreferrer"><span id="resume-footer">Resume</span></a>
           </li>
         </ul>
       </div>
