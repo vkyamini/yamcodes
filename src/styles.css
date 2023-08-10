@@ -123,8 +123,13 @@ p {
   font-weight: bold;
   text-align: left;
   color: white;
-}
+  overflow: hidden;
+  border-top: 1px solid rgba(255, 49, 49, 0.5);
+  border-right: 1px solid rgba(0, 255, 255, 0.5);
+  border-bottom: 1px solid rgba(57, 255, 20, 0.5);
+  border-left: 1px solid rgba(255, 255, 113, 0.5);
 
+}
 #my-image {
   width: 600px;
   height: 600px;
@@ -397,7 +402,8 @@ input::placeholder {
   }
   .p-1 {
     text-align: center;
-    font-family: fantasy
+    /* font-family: fantasy */
+    font-family:'Times New Roman', Times, serif;
   }
   #aboutme-info {
     font-size: 20px;
@@ -611,7 +617,12 @@ input::placeholder {
   #about-me-div {
     padding: 10px;
     /* background-image: linear-gradient(var(--), var(--bg-color)); */
+
   }
+
+
+
+  
 }
 @keyframes slideInFromLeft {
   0% {
@@ -622,3 +633,4 @@ input::placeholder {
     border: 10px solid black;
   }
 }
+
