@@ -184,7 +184,69 @@ li {
   background-size: cover;
   position: relative;
   margin: 10px;
+  opacity:0.7;
+  /* border-top: 2px solid rgba(255, 49, 49, 0.5);
+  border-right: 1px solid rgba(0, 255, 255, 0.5);
+  border-bottom: 1px solid rgba(57, 255, 20, 0.5);
+   */
+ 
 }
+.project-box1:hover{
+  height:450px;
+  border-radius:10px;
+  opacity:10;
+  border-top: 1px solid rgba(255, 49, 49, 0.5);
+  border-right: 1px solid rgba(0, 255, 255, 0.5);
+  border-bottom: 1px solid rgba(57, 255, 20, 0.5);
+  border-left: 1px solid rgba(255, 255, 113, 0.5);
+ 
+}
+.project-box2:hover{
+  height:450px;
+  border-radius: 10px;
+  opacity:10;
+  border-top: 1px solid rgba(255, 49, 49, 0.5);
+  border-right: 1px solid rgba(0, 255, 255, 0.5);
+  border-bottom: 1px solid rgba(57, 255, 20, 0.5);
+  border-left: 1px solid rgba(255, 255, 113, 0.5);
+}
+.project-box3:hover{
+  height:450px;
+  border-radius: 10px;
+  opacity:10;
+  border-top: 1px solid rgba(255, 49, 49, 0.5);
+  border-right: 1px solid rgba(0, 255, 255, 0.5);
+  border-bottom: 1px solid rgba(57, 255, 20, 0.5);
+  border-left: 1px solid rgba(255, 255, 113, 0.5);
+}
+.project-box4:hover{
+  height:450px;
+  border-radius: 10px;
+  opacity:10;
+  border-top: 1px solid rgba(255, 49, 49, 0.5);
+  border-right: 1px solid rgba(0, 255, 255, 0.5);
+  border-bottom: 1px solid rgba(57, 255, 20, 0.5);
+  border-left: 1px solid rgba(255, 255, 113, 0.5);
+}
+.project-box5:hover{
+  height:450px;
+  border-radius: 10px;
+  opacity:10;
+  border-top: 1px solid rgba(255, 49, 49, 0.5);
+  border-right: 1px solid rgba(0, 255, 255, 0.5);
+  border-bottom: 1px solid rgba(57, 255, 20, 0.5);
+  border-left: 1px solid rgba(255, 255, 113, 0.5);
+}
+.project-box6:hover{
+  height:450px;
+  border-radius: 10px;
+  opacity:10;
+  border-top: 1px solid rgba(255, 49, 49, 0.5);
+  border-right: 1px solid rgba(0, 255, 255, 0.5);
+  border-bottom: 1px solid rgba(57, 255, 20, 0.5);
+  border-left: 1px solid rgba(255, 255, 113, 0.5);
+}
+
 .project-box2 {
   display: inline-block;
   background-image: url("/src/Assets/booksApp.png");
@@ -194,6 +256,7 @@ li {
   background-size: cover;
   position: relative;
   margin: 10px;
+  opacity:0.7;
 }
 .project-box3 {
   display: inline-block;
@@ -204,6 +267,7 @@ li {
   background-size: cover;
   position: relative;
   margin: 10px;
+  opacity:0.7;
 }
 .project-box4 {
   display: inline-block;
@@ -215,6 +279,7 @@ li {
   background-size: cover;
   position: relative;
   margin: 10px;
+  opacity:0.7;
 }
 .project-box5 {
   display: inline-block;
@@ -225,6 +290,7 @@ li {
   background-size: cover;
   position: relative;
   margin: 10px;
+  opacity:0.7;
 }
 .project-box6 {
   display: inline-block;
@@ -235,6 +301,7 @@ li {
   background-size: cover;
   position: relative;
   margin: 10px;
+  opacity:0.7;
 }
 #projects-heading {
   font-size: 30px;
@@ -242,7 +309,7 @@ li {
 }
 
 .project-info {
-  display: flex;
+  
   border: 1px solid var(--background);
   border-radius: 8px;
   height: 90px;
@@ -253,6 +320,11 @@ li {
   width: 400px;
   color: white;
 }
+.project-header{
+  font-size: 30px;;
+
+}
+
 .weblink-btn {
   float: right;
   padding: 50px;
@@ -404,9 +476,17 @@ input::placeholder {
     flex-wrap: wrap;
   }
   .p-1 {
-    text-align: center;
+    text-align: left;
     /* font-family: fantasy */
     font-family:'Times New Roman', Times, serif;
+  }
+  #heartfulness{
+font-family: fantasy;
+
+  }
+  #heartfulness:hover{
+    text-decoration: underline;
+
   }
   #aboutme-info {
     font-size: 20px;
@@ -425,6 +505,7 @@ input::placeholder {
     margin-right: 10px;
   }
   #my-image {
+
     --color: var(--heading-color); /* the border color */
     --border: 1px; /* the border thickness*/
     --offset: 20px; /* control the offset*/
@@ -442,13 +523,16 @@ input::placeholder {
       linear-gradient(90deg, var(--_c)) var(--_o) var(--_o);
     background-size: calc(100% - var(--_o)) calc(100% - var(--_o));
     background-repeat: no-repeat;
-    filter: grayscale(0.2);
+    filter: grayscale(0);
     transition: 0.5s;
     cursor: pointer;
    height: 400px;
   }
 
   #my-image:hover {
+    --border: 5px;
+
+
     background-position: 0px 0px;
     background-size: calc(100% - var(--offset)) calc(100% - var(--offset));
     filter: grayscale(0);
@@ -520,12 +604,12 @@ input::placeholder {
   }
 
   #aboutme-img {
-    padding: 10px;
+   padding: 10px;
+    margin-left: 5px;
   }
   #my-image {
     width: 300px;
-   
-    border-radius: 50%;
+    border-radius: 10%;
   }
   .name {
     font-size: 20px;
@@ -554,6 +638,7 @@ input::placeholder {
     margin: 10px;
     border: 1px solid white;
   }
+
   .project-box2 {
     display: inline-block;
     background-image: url("/src/Assets/booksApp.png");

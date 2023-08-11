@@ -24,7 +24,7 @@ function App() {
                 <a href="#Contacts">Conatct</a>
               </li>
               <li id="resume-li"><a href="https://docs.google.com/document/d/1hmyOoFpUE1eImqPQlCMjHKOzieg9crPmLzdbro6frWM/edit?usp=sharing"  target={"_blank"}
-              rel="noreferrer"  id="res-non">Download Resume</a></li>
+              rel="noreferrer"  id="res-non">Resume</a></li>
             </ul>
           </div>
           <div id="Home">
@@ -57,17 +57,17 @@ function App() {
               <p class="p-1">
               As software developer i spend my days [often nights] 
               </p>
-              <p class="p-1">painting the Internet canvas with PROJECTS </p>
-              <p class="p-1">and lines of code.  I turn zeros and ones</p>
+              <p class="p-1">diving in the universe of JavaScript and exploring the </p>
+              <p class="p-1"> world of components in ReactJs.I often try to turn 0's and 1's</p>
               <p class="p-1">
-                into immersive,interactive experiences.
+                into a logical experiences.
               </p>
               <p class="p-1">
               When i am not Coding i read articles,do Painting or mostly</p>
               <p class="p-1"> shinrin-yoku [forest bathing].
-              </p>
-              <p class="p-1">
-              I also practice Meditation and a certified trainer Heartfullnes.
+              </p> 
+              <p class="p-1" >
+              I meditate and also a  certified <a href="https://heartfulness.org/en/masterclass/?utm_source=google&utm_medium=cpc&utm_campaign=how_to_meditate&utm_term=learning_to_meditate&gclid=Cj0KCQjwuNemBhCBARIsADp74QT8vn6Mth7j-zrdBPPE315fLvYxb4FAZHBZ6eDzAyLhSh0wMvsOLeYaAjeyEALw_wcB" target={"_blank"} rel="noreferrer" id="heartfulness">Heartfullness trainer</a>.
               </p>
               </div>
             <div id="aboutme-img">
@@ -85,23 +85,25 @@ function App() {
             <h3 id="projects-heading">Portfolio</h3>
 
             <a
-              href="https://guru-ui.netlify.app/"
+              href="https://github.com/vkyamini/guru-ui"
               target={"_blank"}
               rel="noreferrer"
             >
               <div class="project-box1">
+               
                 <div class="project-info">
+                
                   <div>
-                    <p>The Guruu</p>
-                    <a
+                  <centre><p class="project-header">The Guruu</p></centre>  
+                    {/* <a
                       href="https://github.com/vkyamini/guru-ui"
                       target={"_blank"}
                       rel="noreferrer"
                     >
                       <p>Github Link</p>
-                    </a>
+                    </a> */}
                   </div>
-                  <div class="weblink-btn">
+                  {/* <div class="weblink-btn">
                     <a
                       href="https://guru-ui.netlify.app/"
                       target={"_blank"}
@@ -109,13 +111,13 @@ function App() {
                     >
                       <button class="btn-weblink">see website &#8594;</button>
                     </a>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </a>
 
             <a
-              href="https://graphql-yamini-books.herokuapp.com/"
+              href="https://github.com/vkyamini/books-app"
               target={"_blank"}
               rel="noreferrer"
             >
@@ -123,16 +125,16 @@ function App() {
               <div class="project-box2">
                 <div class="project-info">
                   <div>
-                    <p>Books App</p>
-                    <a
+                    <p class="project-header">Books App</p>
+                    {/* <a
                       href="https://github.com/vkyamini/books-app"
                       target={"_blank"}
                       rel="noreferrer"
                     >
                       <p>Github Link</p>
-                    </a>
+                    </a> */}
                   </div>
-                  <div class="weblink-btn">
+                  {/* <div class="weblink-btn">
                     <a
                       href="https://graphql-yamini-books.herokuapp.com/"
                       target={"_blank"}
@@ -140,12 +142,12 @@ function App() {
                     >
                       <button class="btn-weblink">see website &#8594;</button>
                     </a>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </a>
             <a
-              href="https://addnotes.herokuapp.com/notes"
+              href="https://github.com/vkyamini/notes_taker"
               target={"_blank"}
               rel="noreferrer"
             >
@@ -153,16 +155,16 @@ function App() {
               <div class="project-box3">
                 <div class="project-info">
                   <div>
-                    <p>Notes Taker</p>
-                    <a
+                    <p class="project-header">Notes Taker</p>
+                    {/* <a
                       href="https://github.com/vkyamini/notes_taker"
                       target={"_blank"}
                       rel="noreferrer"
                     >
                       <p>Github Link</p>
-                    </a>
+                    </a> */}
                   </div>
-                  <div class="weblink-btn">
+                  {/* <div class="weblink-btn">
                     <a
                       href="https://addnotes.herokuapp.com/notes"
                       target={"_blank"}
@@ -170,12 +172,12 @@ function App() {
                     >
                       <button class="btn-weblink">see website &#8594;</button>
                     </a>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </a>
             <a
-              href="https://vkyamini.github.io/daily-Calendar/"
+              href="https://github.com/vkyamini/daily-Calendar"
               target={"_blank"}
               rel="noreferrer"
             >
@@ -183,16 +185,16 @@ function App() {
               <div class="project-box4">
                 <div class="project-info">
                   <div>
-                    <p>Daily Calendar</p>
-                    <a
+                    <p  class="project-header">Daily Calendar</p>
+                    {/* <a
                       href="https://github.com/vkyamini/daily-Calendar"
                       target={"_blank"}
                       rel="noreferrer"
                     >
                       <p>Github Link</p>
-                    </a>
+                    </a> */}
                   </div>
-                  <div class="weblink-btn">
+                  {/* <div class="weblink-btn">
                     <a
                       href="https://vkyamini.github.io/daily-Calendar/"
                       target={"_blank"}
@@ -200,12 +202,12 @@ function App() {
                     >
                       <button class="btn-weblink">see website &#8594;</button>
                     </a>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </a>
             <a
-              href="https://vkyamini.github.io/dailt-weather/"
+              href="https://github.com/vkyamini/dailt-weather"
               target={"_blank"}
               rel="noreferrer"
             >
@@ -213,16 +215,16 @@ function App() {
               <div class="project-box5">
                 <div class="project-info">
                   <div>
-                    <p>Weather App</p>
-                    <a
+                    <p class="project-header">Weather App</p>
+                    {/* <a
                       href="https://github.com/vkyamini/dailt-weather"
                       target={"_blank"}
                       rel="noreferrer"
                     >
                       <p>Github Link</p>
-                    </a>
+                    </a> */}
                   </div>
-                  <div class="weblink-btn">
+                  {/* <div class="weblink-btn">
                     <a
                       href="https://vkyamini.github.io/dailt-weather/"
                       target={"_blank"}
@@ -230,12 +232,12 @@ function App() {
                     >
                       <button class="btn-weblink">see website &#8594;</button>
                     </a>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </a>
             <a
-              href="https://vkyamini.github.io/Quiz/"
+              href="https://github.com/vkyamini/Quiz"
               target={"_blank"}
               rel="noreferrer"
             >
@@ -243,16 +245,16 @@ function App() {
               <div class="project-box6">
                 <div class="project-info">
                   <div>
-                    <p>Quiz</p>
-                    <a
+                    <p class="project-header">Quiz</p>
+                    {/* <a
                       href="https://github.com/vkyamini/Quiz"
                       target={"_blank"}
                       rel="noreferrer"
                     >
                       <p>Github Link</p>
-                    </a>
+                    </a> */}
                   </div>
-                  <div class="weblink-btn">
+                  {/* <div class="weblink-btn">
                     <a
                       href="https://vkyamini.github.io/Quiz/"
                       target={"_blank"}
@@ -260,7 +262,7 @@ function App() {
                     >
                       <button class="btn-weblink">see website &#8594;</button>
                     </a>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </a>
