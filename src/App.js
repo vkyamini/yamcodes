@@ -1,7 +1,7 @@
 import React from "react";
 import "./styles.css";
-import img from "../src/Assets/img.jpeg";
-import frontend from "../src/Assets/poerfolio1.jpg";
+import img from "../src/Assets/colored.jpeg";
+import frontend from "../src/Assets/coverpic.jpeg";
 
 function App() {
   return (
@@ -69,26 +69,7 @@ function App() {
               <p class="p-1">
               I also practice Meditation and a certified trainer Heartfullnes.
               </p>
-
-
-              {/* <p class="p-1">I am full stack developer based in Seattle,washington.</p>
-              <p class="p-1">
-                As developeri spent my days(and often nights) painting the Internet
-              </p>
-              <p class="p-1">canvas with PROJECTS and lines of code.</p>
-              <p class="p-1">
-                I turn zeros and ones into immersive,interactive experiences.
-              </p>
-              <p class="p-1">
-                I thread the path of minimalism,finding beauty in simplicity and order.
-              </p>
-              <p class="p-1">
-              When i am not Coding i read articles, Painting or shinrin-yoku(forest bathing).
-              </p>
-              <p class="p-1">
-              I also practice Meditation and a Heartfullnes Practiionr
-              </p> */}
-            </div>
+              </div>
             <div id="aboutme-img">
               {" "}
               <img id="my-image" src={img} alt="mypic"></img>
