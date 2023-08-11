@@ -359,8 +359,11 @@ input::placeholder {
     flex-wrap: wrap;
     margin: 0px;
   }
-  #res-non{
-    display:none;
+ 
+  #resume-li{
+    margin-top: 20px;
+    color:#159192;
+    text-decoration: underline;
   }
   #contact-heading {
     font-size: 60px;
@@ -458,7 +461,7 @@ input::placeholder {
     /* border-image:   linear-gradient(to right, grey 25%, yellow 25%, yellow 50%,red 50%, red 75%, teal 75%) 5; */
   }
   #home-link {
-    margin-left: 350px;
+    margin-left: 210px;
     margin-top: 20px;
   }
   #work-link {
@@ -483,6 +486,7 @@ input::placeholder {
   #res-non{
     color:var(--button-color);
     text-decoration: underline;
+  
     
   }
   li {

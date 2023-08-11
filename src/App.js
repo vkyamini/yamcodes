@@ -23,8 +23,8 @@ function App() {
               <li id="getintouch-link">
                 <a href="#Contacts">Conatct</a>
               </li>
-              <li><a href="https://docs.google.com/document/d/1hmyOoFpUE1eImqPQlCMjHKOzieg9crPmLzdbro6frWM/edit?usp=sharing"  target={"_blank"}
-              rel="noreferrer"  id="res-non">Resume</a></li>
+              <li id="resume-li"><a href="https://docs.google.com/document/d/1hmyOoFpUE1eImqPQlCMjHKOzieg9crPmLzdbro6frWM/edit?usp=sharing"  target={"_blank"}
+              rel="noreferrer"  id="res-non">Download Resume</a></li>
             </ul>
           </div>
           <div id="Home">
@@ -34,8 +34,8 @@ function App() {
                 {" "}
                 <img id="frontpage-image" src={frontend} alt="mypic"></img>
               </center>
-           <center><a href="https://docs.google.com/document/d/1hmyOoFpUE1eImqPQlCMjHKOzieg9crPmLzdbro6frWM/edit?usp=sharing"  target={"_blank"}
-              rel="noreferrer"> <span id="resume">Resume</span></a></center>  
+           {/* <center><a href="https://docs.google.com/document/d/1hmyOoFpUE1eImqPQlCMjHKOzieg9crPmLzdbro6frWM/edit?usp=sharing"  target={"_blank"}
+              rel="noreferrer"> <span id="resume">Resume</span></a></center>   */}
             </div>
             <p id="front-page">Hi! I'm Yamini, and I build web apps</p>
             <center>
