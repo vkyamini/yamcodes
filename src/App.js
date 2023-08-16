@@ -274,24 +274,27 @@ function App() {
       <div id="Contacts">
         <div id="form-div">
           <p id="contact-heading">Get in Touch</p>
-         <form name="contact" method="POST" data-netlify="true">
-            <input id="form-name" type="text" placeholder="name"></input>
-            <input id="form-Email" type="text" placeholder="Email"></input>
+         <form name="contact" method="post" netlify netlify-honeypot="bot-field">
+            <input id="form-name" type="text" placeholder="name" name="name"></input>
+            <input id="form-Email" type="text" placeholder="Email" name="email"></input>
             <br></br>
             <input
               id="form-number"
               type="number"
+              name="phone-number"
               placeholder="Phone number"
             ></input>
-            <input id="form-subject" type="text" placeholder="subject"></input>
+            <input id="form-subject" type="text" placeholder="subject" name="subject"></input>
             <br></br>
             <input
               id="form-comment"
               type="textarea"
               placeholder="please leave your comment"
+              name="message"
             ></input>
             <br></br>
-            <button id="form-submit">Submit</button>
+            <button id="form-submit" type="submit">Submit</button>
+            <input type="hidden" name="form-name" value="contact" />
           </form>
         </div>
       </div>
