@@ -274,7 +274,7 @@ function App() {
       <div id="Contacts">
         <div id="form-div">
           <p id="contact-heading">Get in Touch</p>
-         <form>
+         <form name="contact" method="POST" data-netlify="true">
             <input id="form-name" type="text" placeholder="name"></input>
             <input id="form-Email" type="text" placeholder="Email"></input>
             <br></br>
