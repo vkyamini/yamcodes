@@ -8,6 +8,7 @@ function App() {
     <div>
       <div id="page-1">
         <div id="div-tint">
+       
           <div id="nav-bar">
             <ul>
               <li class="name">V.K Yamini </li>

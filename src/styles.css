@@ -33,7 +33,7 @@ body {
     var(--button-color)
   );
 
-  opacity: 0.8;
+  opacity: 0.89;
 }
 
 #nav-bar {
@@ -440,6 +440,7 @@ input::placeholder {
 }
 /* ============================================================================================!!!!!! */
 @media only screen and (min-width: 1000px) {
+  
   ul {
     display: flex;
     flex-wrap: wrap;
@@ -511,7 +512,7 @@ font-family: fantasy;
   }
   .name {
     font-size: 30px;
-    margin-left: 150px;
+    margin-left:380px;
   }
   #aboutme-img {
     padding: 10px;
@@ -712,6 +713,10 @@ font-family: fantasy;
   input {
     margin-bottom: 5px;
     text-align: center;
+  }
+  #form-subject{
+    width: 300px;
+    height: 80px;
   }
   #form-comment {
     width: 300px;
