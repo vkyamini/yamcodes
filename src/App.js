@@ -274,7 +274,8 @@ function App() {
       <div id="Contacts">
         <div id="form-div">
           <p id="contact-heading">Get in Touch</p>
-         <form name="contact" method="post" netlify netlify-honeypot="bot-field">
+         <form name="contact" method="post">
+            <input type="hidden" name="form-name" value="contact" />
             <input id="form-name" type="text" placeholder="name" name="name"></input>
             <input id="form-Email" type="text" placeholder="Email" name="email"></input>
             <br></br>
@@ -294,7 +295,6 @@ function App() {
             ></input>
             <br></br>
             <button id="form-submit" type="submit">Submit</button>
-            <input type="hidden" name="form-name" value="contact" />
           </form>
         </div>
       </div>
