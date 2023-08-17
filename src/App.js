@@ -279,13 +279,13 @@ function App() {
             <input id="form-name" type="text" placeholder="name" name="name"></input>
             <input id="form-Email" type="text" placeholder="Email" name="email"></input>
             <br></br>
-            <input
+            {/* <input
               id="form-number"
               type="number"
               name="phone-number"
               placeholder="Phone number"
-            ></input>
-            <input id="form-subject" type="text" placeholder="subject" name="subject"></input>
+            ></input> */}
+            <input id="form-subject" type="text" placeholder="Message" name="subject"></input>
             <br></br>
             <input
               id="form-comment"
