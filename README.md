@@ -1,4 +1,4 @@
-# The Guruu
+<!-- # The Guruu
 
 The Project is build with the need for the programmers to connect with other programmers 
 who are willing to teach or learn a particulat skill(programming language).
@@ -61,4 +61,4 @@ creation of a file for dotenv is required.
 ## License
 
 MIT
-
+ -->
